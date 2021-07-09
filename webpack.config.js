@@ -42,7 +42,7 @@ module.exports = {
         exclude: /node_modules/,
         include: environment.paths.source,
         use: ["babel-loader"],
-      },
+      }, 
       {
         test: /\.(png|gif|jpg|jpeg)$/,
         use: [
